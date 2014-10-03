@@ -1,0 +1,187 @@
+<div id="dialog" class="register">
+    <div id="regHeader">
+        <div class="logoLeft"></div>
+        <div class="hoverText">
+            Come Back and Apply Anytime
+        </div>
+    </div>
+    <div id="profileheader">
+        <span id="pTitle">So you want to be a Handy Boy?</span>
+        <span id="pText">join our fun, flirty, and fabulous workforce in just a few steps</span>
+    </div>
+    <div class="step">
+        <div class="left">
+            <span class="stepHead first">
+                STEP 1
+            </span>
+            <span class="altText">
+                Upload photo of yourself
+            </span>
+        </div>
+        <div class="center">
+            <img src="/img/register/avatar.png" />
+            <div class="upload">
+                <input type="file" style="color:red"/>
+            </div>
+        </div>
+        <div class="right">
+            <ul>
+                <li><div class="myPopUp">
+                    <div class="leftSide"></div>
+                    <div class="rightSide">
+                        <span class="pophead">You look amazing!</span>
+                    </div>
+                </div></li>
+                <li><div class="myPopUp Lage">
+                    <div class="leftSide"></div>
+                    <div class="rightSide">
+                        <span class="pophead">Well this is akward</span>
+                        <span class="popBody">
+                            Something went wrong!
+                            Could you try again?
+                        </span>
+                    </div>
+                </div></li>
+
+                <li><div class="myPopUp Lage">
+                    <div class="leftSide"></div>
+                    <div class="rightSide">
+                        <span class="pophead">You`re so tiny!</span>
+                        <span class="popBody">
+                            Please use images at least 200px X 200px
+                        </span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div class="step">
+        <div class="left">
+            <span class="stepHead">
+                STEP 2
+            </span>
+            <span class="altText">
+                Pick out a job!
+            </span>
+        </div>
+        <div class="center">
+            <select class='select'>
+                <option>Click for a dropdown of jobs...</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+        </div>
+        <div class="right">
+            <div class="myPopUp Lage distance">
+                <div class="leftSide"></div>
+                <div class="rightSide">
+                    <span class="pophead">Dont worry!</span>
+                    <span class="popBody">
+                        You can change or add jobs at anytime
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="step">
+        <div class="left">
+            <span class="stepHead">
+                STEP 3
+            </span>
+            <span class="altText long">
+                Where in the worlda are you?
+            </span>
+        </div>
+        <div class="center">
+            <input name="111111" type="text" placeholder="City or Zip" class="input-text" id="email"/>
+        </div>
+    </div>
+    <div class="step">
+        <div class="left">
+            <span class="stepHead">
+                STEP 4
+            </span>
+            <span class="altText">
+                When were you born?
+            </span>
+        </div>
+        <div class="center">
+            <ul>
+                <li class="two"><input type="text" class="input-text" placeholder="MM"/></li>
+                <li class="slash">/</li>
+                <li class="two"><input type="text" class="input-text" placeholder="DD"/></li>
+                <li class="slash">/</li>
+                <li class="one"><input type="text" class="input-text" placeholder="YYYY" /></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="myPopUp Lage abs">
+                <div class="leftSide"></div>
+                <div class="rightSide">
+                    <span class="pophead">Are you Crazy?</span>
+                    <span class="popBody">
+                        All Handy Boys must be at least 18 years older
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="step">
+        <div class="left">
+            <span class="stepHead">
+                STEP 5
+            </span>
+            <span class="altText">
+                What is your mobile number?
+            </span>
+        </div>
+        <div class="center">
+            <input name="111111" type="tel" placeholder="XXX-XXX-XXXX" class="input-text" id="phone"/>
+            <a href="" class="small">why do we need this?</a>
+        </div>
+        <div class="right">
+            <div class="myPopUp Lage distance">
+                <div class="leftSide"></div>
+                <div class="rightSide">
+                    <span class="pophead">Just a second!</span>
+                    <span class="popBody">
+                        Something isnt right with your cell number
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ul class="steps">
+        <li>
+            <div class="number">1</div>
+            <a href=""><div class="body">Send phone verification</div></a>
+        </li>
+        <li>
+            <div class="number">2</div>
+            <div class="body code"><p>Enter your code here </p><input type="text"></div>
+        </li>
+        <li>
+            <div class="number">3</div>
+            <a href=""><div class="body">Perfect! Submit</div></a>
+        </li>
+    </ul>
+
+</div>
+<script>
+    $( "#dialog" ).dialog({ minWidth: 761, minHeight: 1066 });
+    $( ".select" ).selectmenu({ width: 305 });
+    
+    $('.ui-dialog-titlebar-close').mouseover(function(event)
+    {
+       $('.hoverText').show();
+    });
+
+    $('.ui-dialog-titlebar-close').mouseout(function(event)
+    {
+        $('.hoverText').hide();
+    });
+    $("#phone").mask("999-999-9999",{placeholder:"X"});
+</script>

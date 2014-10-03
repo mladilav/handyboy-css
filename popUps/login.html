@@ -1,0 +1,36 @@
+<div id="dialog">
+    <div class="logo"></div>
+    <div class="faceBook">
+        <button class="fbBtn">
+            <div class="fL"></div>
+            
+                Login with Facebook
+        </button>
+    </div>
+    <div class="orLogin">
+        - Or -
+    </div>
+    <div class="email">
+        <input name="email" type="text" placeholder="user@usersclient.com" class="input-text log" id="email"/>
+    </div>
+    <div class="pass">
+        <input name="password" type="password" placeholder="Enter your password" class="input-text log" id="pass"/>
+        <div><a href="#">Forgot Password?</a></div>
+    </div>
+    <div class="reMember">
+        <input id="remember" type="checkbox" name="remember" hidden />
+        <label for="remember" id="forRemember"><span id="rehead">Remember Me?</span><span id="frase">Do not select this option if on public computer</span></label>
+    </div>
+    <div class="login">
+        <button id="clLogin">Log In</button>
+    </div>
+    <div class="createAc">
+        <button id="createAc">Create New Account</button>
+    </div>
+    <div class="lincks">If you have already created an  account, <a href="#">click here to sign in.</a>
+        Or, <a href="#">contact us</a> if you have any questions!</div>
+</div>
+
+<script>
+    $( "#dialog" ).dialog({ minWidth: 450, minHeight: 717 });
+</script>
