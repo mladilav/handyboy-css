@@ -7,43 +7,14 @@
 	<title>jQuery UI Dialog - Default functionality</title>
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-        <script src="http://jarallax.com/download/jarallax-min-0.2.js" type="text/javascript"></script>
-        <script src="js/animations.js"></script>
-        
+
+        <script src="/js/jarallax-0.2.4b.js"></script>
+        <script src="/js/animations.js"></script>
+
+        <script src="/js/scripts.js"></script>
+
 	<script>
-        $(document).ready(function(){
-            $(document).on('click','.signIn',function(){
-                $( "#popUps" ).load( "/popUps/login.html" );
-                $(".back").removeClass("hide");
-            });
-            $(document).on('click','.become-handyboy-button',function(){
-                $( "#popUps" ).load( "/popUps/register.html" );
-                $(".back").removeClass("hide");
-            });
-            $(document).on('click','.ui-icon-closethick',function(){
-                $(".back").addClass("hide");
-            });
-            $(document).on('click','.ui-dialog-titlebar-close',function(){
-                $(".back").addClass("hide");
-            });
 
-/*
-                var lastScrollTop = 0;
-                $(window).scroll(function(event){
-                    var st = $(this).scrollTop();
-                    if (st > lastScrollTop){
-                        $("html, body").animate({scrollTop:st+500}, '1000', 'swing', function() {});
-                    } else {
-                        $("html, body").animate({scrollTop:st-500}, '1000', 'swing', function() {});
-                    }
-                    lastScrollTop = st;
-                });
-*/
-
-
-
-
-        });
 	</script>
 
         <link rel='stylesheet' href="/css/vendor/jquery-ui.css"/>
