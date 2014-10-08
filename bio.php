@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <title>jQuery UI Dialog - Default functionality</title>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-    <script src="/js/scripts.js"></script>
+    <script  src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="/js/scripts.js"></script>
 
     <link rel='stylesheet' href="/css/vendor/jquery-ui.css"/>
     <link rel="stylesheet" href="/fonts/font.css"/>

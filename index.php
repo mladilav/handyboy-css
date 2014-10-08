@@ -7,11 +7,11 @@
 	<title>jQuery UI Dialog - Default functionality</title>
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-
-        <script src="/js/jarallax-0.2.4b.js"></script>
-        <script src="/js/animations.js"></script>
-
-        <script src="/js/scripts.js"></script>
+        <script src="http://jarallax.com/download/jarallax-min-0.2.js" type="text/javascript"></script>
+        <script type="text/javascript" src="/js/animations.js"></script>
+        <script type="text/javascript" src="/js/scripts.js"></script>
+        <script type="text/javascript" src="/js/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="/js/animation-1.js"></script>
 
 	<script>
 
@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="/css/style.css"/>
         
 </head>
-<body onload="init()">
+<body onload="init()" style="overflow: hidden;">
 <div class="wrapper">
     <div class="video" >
     <video id="video_background" class="video-background-top" preload="auto" autoplay="true" loop="loop" poster="img/main/BG.png">
@@ -43,7 +43,7 @@
             <ul class="topMenu">
                 <li><span>|</span><a href="">Help</a></li>
                 <li><span>|</span><a href="">FAQ</a></li>
-                <li><span>|</span><a class="become-handyboy-button">Become a handyboy</a></li>
+                <li><span>|</span><a href="/main.php" class="">Become a handyboy</a></li>
                 <li><span>|</span><a class="signIn"><i class="icon-lock-small" ></i> Sing in</a></li>
             </ul>
 
@@ -57,13 +57,14 @@
         <li class="active"><a href="">How it Works</a></li>
         <li ><a href="">Safety</a></li>
         <li ><a href="">Mobile</a></li>
-        <li ><a class="red become-handyboy-button">Become a HandyBoy</a></li>
+        <li ><a class="red" href="/main.php">Become a HandyBoy</a></li>
     </ul>
         </div>
     </div>
     <div class="container">
         <div class="screen-two">
-        <h2 class="captionLight">So... How does it work?</h2>
+        <h2 class="captionLight" >
+            So... How does it work?</h2>
         <div class="image firstImage"></div>
         </div>
         <div class="screen-three">
@@ -118,9 +119,10 @@
                 <div class="image fiveImage"></div>
             </div>
             <div class="rightPart">
-
+            <div class="textAnimationTwo">
                 <h2 class="textAnimation-2">Safe and Easy to Use</h2>
                 <p class="textAnimation-3">The best guys in your area are just a few clicks away</p>
+            </div>
             </div>
         </div>
 
@@ -149,7 +151,7 @@
         <div class="leftPart">
             <div class="image sixImage"></div>
         </div>
-        <div class="rightPart">
+        <div class="rightPart partAnimation">
             <h2 class="textAnimationThree">Download the HandyBoy<i class="tm">tm</i>
                 App and browse our guys on the go.</h2>
             <div class="buy-button buy-button-bottom">
@@ -172,6 +174,6 @@
     <div class="back hide"></div>
     <div id="popUps"></div>
 
-<a class="become-handyboy become-handyboy-button"><p>Become a HandYBoy!<i class="icon-red-arrow"></i> </p></a>
+<a href="/main.php" class="become-handyboy"><p>Become a HandYBoy!<i class="icon-red-arrow"></i> </p></a>
 </body>
 </html>

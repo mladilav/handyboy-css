@@ -7,6 +7,10 @@
     <title>jQuery UI Dialog - Default functionality</title>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="/js/jquery.mousewheel.js"></script>
+    <script src="http://jarallax.com/download/jarallax-min-0.2.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/animations.js"></script>
+    <script type="text/javascript" src="/js/animation-2.js"></script>
     <script src="/js/scripts.js"></script>
 
     <link rel='stylesheet' href="/css/vendor/jquery-ui.css"/>
@@ -15,7 +19,7 @@
     <link rel="stylesheet" href="/css/style.css"/>   
 
 </head>
-<body onload="init()">
+<body onload="init()" style="overflow: hidden;">
 <div class="wrapper">
     <div class="video">
         <video id="video_background" class="video-background-top" preload="auto" autoplay="true" loop="loop"
@@ -51,11 +55,11 @@
         </div>
     </div>
     <div class="container">
-        <h2 class="darkLargeTitle main">What is handy boy?</h2>
+        <h2 class="darkLargeTitle main textAnimationOne">What is handyboy?</h2>
 
         <div class="play-button"></div>
         <div class="what-is-handyboy"></div>
-        <h3 class="darkLargeTitle main">Why join?</h3>
+        <h3 class="darkLargeTitle main textAnimationTwo">Why join?</h3>
 
         <p class="textTwo">
             <b>Safe</b> and <b>easy</b> to use. Once you're accepted? you're up and working in less than 24 hours.
@@ -107,7 +111,7 @@
 
 
     <div class="formRegistration">
-        <div class="container">
+        <div class="container formAnimation">
             <h3 class="darkLargeTitle">Apply today</h3>
 
             <form>
