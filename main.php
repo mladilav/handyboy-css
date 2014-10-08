@@ -12,7 +12,7 @@
     <link rel='stylesheet' href="/css/vendor/jquery-ui.css"/>
     <!--<link rel='stylesheet' href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css"/>-->
     <link rel="stylesheet" href="/fonts/font.css"/>
-    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>   
 
 </head>
 <body onload="init()">
