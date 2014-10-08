@@ -24,7 +24,7 @@ $(window).on('mousewheel', function (event) {
         if (scrollFlag) {
             if (currentPosition == 800) {
                 $("body,html").animate({
-                    scrollTop: 1500
+                    scrollTop: 1600
                 }, 400);
 
                 $('.textAnimationTwo').delay(300).addClass('textAnimationTwo-1');
@@ -33,13 +33,13 @@ $(window).on('mousewheel', function (event) {
 
 
                 scrollFlag = 0;
-                currentPosition = 1500;
+                currentPosition = 1600;
                 setTimeout(second_passed, 500)
             }
         }
 
         if (scrollFlag) {
-            if (currentPosition == 1500) {
+            if (currentPosition == 1600) {
                 $("body,html").animate({
                     scrollTop: 2250
                 }, 400);
@@ -88,7 +88,7 @@ $(window).on('mousewheel', function (event) {
             }
         }
         if (scrollFlag) {
-            if (currentPosition == 1500) {
+            if (currentPosition == 1600) {
                 $("body,html").animate({
                     scrollTop: 800
                 }, 400);
@@ -102,10 +102,10 @@ $(window).on('mousewheel', function (event) {
         if (scrollFlag) {
             if (currentPosition == 2250) {
                 $("body,html").animate({
-                    scrollTop: 1500
+                    scrollTop: 1600
                 }, 400);
                 scrollFlag = 0;
-                currentPosition = 1500;
+                currentPosition = 1600;
                 st = $("body,html").scrollTop();
                 setTimeout(second_passed, 500)
             }
