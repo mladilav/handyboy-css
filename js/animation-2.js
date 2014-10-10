@@ -81,7 +81,7 @@ $(window).on('mousewheel', function (event) {
             if (currentPosition == 800) {
                 $("body,html").animate({
                     scrollTop: 0
-                }, 400);
+                }, 200);
                 scrollFlag = 0;
                 currentPosition = 0;
                 setTimeout(second_passed, 500)
@@ -91,7 +91,7 @@ $(window).on('mousewheel', function (event) {
             if (currentPosition == 1600) {
                 $("body,html").animate({
                     scrollTop: 800
-                }, 400);
+                }, 200);
                 scrollFlag = 0;
                 currentPosition = 800;
                 st = $("body,html").scrollTop();
@@ -103,7 +103,7 @@ $(window).on('mousewheel', function (event) {
             if (currentPosition == 2250) {
                 $("body,html").animate({
                     scrollTop: 1600
-                }, 400);
+                }, 200);
                 scrollFlag = 0;
                 currentPosition = 1600;
                 st = $("body,html").scrollTop();
@@ -115,7 +115,7 @@ $(window).on('mousewheel', function (event) {
             if (currentPosition == 3000) {
                 $("body,html").animate({
                     scrollTop: 2250
-                }, 400);
+                }, 200);
                 scrollFlag = 0;
                 currentPosition = 2250;
                 st = $("body,html").scrollTop();
@@ -127,7 +127,7 @@ $(window).on('mousewheel', function (event) {
             if (currentPosition == 3350) {
                 $("body,html").animate({
                     scrollTop: 3000
-                }, 400);
+                }, 200);
                 scrollFlag = 0;
                 currentPosition = 3000;
                 st = $("body,html").scrollTop();
@@ -139,7 +139,7 @@ $(window).on('mousewheel', function (event) {
             if (currentPosition == 3500) {
                 $("body,html").animate({
                     scrollTop: 3350
-                }, 400);
+                }, 200);
                 scrollFlag = 0;
                 currentPosition = 3350;
                 st = $("body,html").scrollTop();

@@ -54,15 +54,59 @@
 
                     <div class="accordion">
                         <ul>
-                            <li><div class="accordion-title active"> <b>-</b> <span> One</span></div>
-                                <div class="inner-body open" style="display:block;"> One One One One One One One One One One One One One One One One
-                                    One One One One One One One One One One One One One One One One
-                                    One One One One One One One One One One One One One One One One</div>
+                            <li><div class="accordion-title active" id="edit-bio"> <b>-</b> <span> Bio</span></div>
+                                <div class="inner-body open" style="display:block;">
+                                    <label class="small-label">Height</label>
+                                    <p>
+                                        <input type="text" class="input-text bio-form-height" placeholder="Inches">
+                                        <input type="text" class="input-text bio-form-height-inches">
+                                    </p>
+                                    <label class="small-label">Ethnicity</label>
+                                    <p>
+                                        <select class="select">
+                                            <option>What ethnicity for you identify...</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
+                                    </p>
+
+                                    <label class="small-label">Hair color</label>
+                                    <p>
+                                        <select class="select">
+                                            <option>What color's your mop?</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
+                                    </p>
+
+                                    <label class="small-label">Eye color</label>
+                                    <p>
+                                        <select class="select">
+                                            <option>Lapis Lazuli or Viridian?</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
+                                    </p>
+
+                                    <label class="small-label">Body type</label>
+                                    <p>
+                                        <select class="select">
+                                            <option>How are you built/sculped?</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
+                                    </p>
+                                    <label class="small-label">Search profile</label>
+                                    <textarea  class="textarea" placeholder="Tell about you - have fun and be yourself. This is the first
+                                    thing a potential client will read about you!">
+
+                                    </textarea>
+                                </div>
                             </li>
-                            <li><div class="accordion-title"><b>+</b> <span> Two</span></div>
+                            <li><div class="accordion-title" id="work-schedule"><b>+</b> <span> Work Schedule</span></div>
                                 <div class="inner-body"> Two Two Two Two</div>
                             </li>
-                            <li><div class="accordion-title"><b>+</b> <span> Three</span></div>
+                            <li><div class="accordion-title" id="job-details"><b>+</b> <span> Job Details De</span></div>
                                 <div class="inner-body"> Three Three Three Three</div>
                             </li>
                         </ul>
@@ -72,7 +116,11 @@
                 <div class="rightPart">
                     <img src="img/user.png">
                 </div>
+
+
             </div>
+            <button class="btn-dark-standard edit-back"><i class="icon-arrow-back"></i> Back</button>
+            <button class="btn-dark-standard work-schedule-next">Work Schedule<i class="icon-arrow-next"></i></button>
         </div>
     </main>
 </div>
@@ -86,5 +134,12 @@
         </ul>
     </div>
 </footer>
+
+<script>
+
+    $( ".select" ).selectmenu({ width: 570 });
+
+
+</script>
 </body>
 </html>
