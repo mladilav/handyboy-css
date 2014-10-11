@@ -2,12 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
 body, html {
     min-height: 100%;
     height: auto;
     padding: 0;
     margin: 0;
     background: #fcfcfc;
+    font-family: OpenSans;
     color: #212530;
 }
 
@@ -1429,12 +1439,12 @@ header .dropdown-user-menu {
 
 .bio .leftPart {
     float: left;
-    width: 640px;
+    width: 800px;
 }
 
 .bio .rightPart {
-    float: left;
-    width: 320px;
+    float: right;
+    width: 200px;
 }
 
 .bio h1 {
@@ -1523,7 +1533,7 @@ footer ul li a {
 .accordion-title span {
     border-bottom: 3px solid;
     display: inline-block;
-    width: 550px;
+    width: 645px;
     cursor: pointer;
     font-family: OpenSansBold;
     padding: 5px 0;
@@ -2210,7 +2220,7 @@ h2.captionLight {
     border: 3px solid #e3e3e3;
     height: 150px;
     resize: none;
-    width: 565px;
+    width: 645px;
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -2248,4 +2258,198 @@ h2.captionLight {
     margin-left: 8px;
     position: relative;
     width: 12px;
+}
+
+
+.smalls-avatars{
+    display: inline-block;
+    width: 200px;
+}
+
+.smalls-avatars img{
+    height: 57px;
+    width: 64px;
+}
+
+
+.add-photo-profile{
+    background: url("../img/bio_schedule_job/red_plus_addphoto.png");
+    width: 64px;
+    height: 57px;
+    border: 0;
+    display: inline-block;
+    float: right;
+
+}
+
+.add-photo-profile:active{
+    background: url("../img/bio_schedule_job/red_plus_addphoto_CLICK.png");
+}
+
+.user-profile-complete{
+    border: 3px solid #212530;
+    margin-top: 20px;
+}
+
+.user-profile-complete-header{
+    background: #212530;
+    color: #ffffff;
+    font-family: OpenSansBold;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.icon-info-white{
+    display: inline-block;
+    background: url("../img/bio_schedule_job/info_button.png");
+    height: 13px;
+    width: 13px;
+    margin-left: 5px;
+}
+
+.user-profile-complete-next-step{
+    font-family: OpenSansBold;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.user-profile-complete-steps{
+    font-family: OpenSans;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+.small-title-light{
+    color: #212530;
+    font-family: OpenSans;
+    font-size: 24px;
+    margin: 10px 0;
+}
+.bio-text{
+    color: #212530;
+    font-family: OpenSans;
+    font-size: 16px;
+    width: 660px;
+}
+
+
+
+.calendar{
+    margin: 20px 0;
+    width: 660px;
+}
+
+.calendar-week{
+    display: inline-block;
+}
+
+.calendar-week li{
+    float: left;
+}
+
+.calendar-week li a{
+    background: none repeat scroll 0 0 #212530;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 30px;
+    text-decoration: none;
+
+}
+
+.calendar-week li.active a{
+    background: none repeat scroll 0 0 #e72d3f;
+}
+.calendar-week li.active a:before{
+    background: url("../img/bio_schedule_job/red_arrow_schedule.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    content: " ";
+    height: 10px;
+    margin-left: -22px;
+    margin-top: 25px;
+    position: absolute;
+    width: 84px;
+}
+
+.calendar-days{
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 640px;
+}
+
+.calendar-days-item{
+
+    color: #212530;
+    background: #ddd;
+    float: left;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    width: 70px;
+    cursor: pointer;
+}
+
+.calendar-days-item:hover{
+    background: none repeat scroll 0 0 #e72d3f;
+    color: #ffffff;
+}
+
+.calendar-days-item.active{
+    background: none repeat scroll 0 0 #212530;
+    color: #ffffff;
+}
+
+.category-jobs{
+    display: inline-block;
+    margin-left: 25px;
+    width: 640px;
+}
+
+.category-jobs-item{
+    display: inline-block;
+    background: url("../img/bio_schedule_job/sprite-category.png");
+    width: 114px;
+    height: 114px;
+    margin: 3px 0;
+}
+
+.category-jobs-item.active{
+    background: url("../img/bio_schedule_job/sprite-category-active.png");
+}
+
+.category-jobs-item-1{
+    background-position: 0 0;
+}
+
+.category-jobs-item-2{
+    background-position: -120px 0;
+}
+
+.category-jobs-item-3{
+    background-position: -240px 0;
+}
+.category-jobs-item-4{
+    background-position: -361px 0;
+}
+
+.category-jobs-item-5{
+    background-position: -482px 0;
+}
+.category-jobs-item-6{
+    background-position: 0 -120px;
+}
+
+.category-jobs-item-7{
+    background-position: -120px -120px;
+}
+
+.category-jobs-item-8{
+    background-position: -240px -120px;
+}
+.category-jobs-item-9{
+    background-position: -361px -120px;
+}
+
+.category-jobs-item-10{
+    background-position: -482px -120px;
 }
