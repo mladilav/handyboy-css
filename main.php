@@ -50,7 +50,7 @@
                 <li><span>|</span><a href="">Help</a></li>
                 <li><span>|</span><a href="">FAQ</a></li>
                 <li><span>|</span><a class="become-handyboy-button">Become a handyboy</a></li>
-                <li><span>|</span><a class="signIn"><i class="icon-lock-small"></i> Sing in</a></li>
+                <li><span>|</span><a class="signIn"><i class="icon-lock-small"></i> Sign In</a></li>
             </ul>
 
             <div class="phone"></div>

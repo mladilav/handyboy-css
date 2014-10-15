@@ -57,6 +57,17 @@ $(document).ready(function () {
         $('.work-schedule-next').html('Work Schedule<i class="icon-arrow-next"></i>');
         displayBio();
     });
+
+    $(".slider").slider({
+        range: "min",
+        min: 1,
+        max: 500,
+        value: 37,
+        slide: function( event, ui ) {
+            $( "#amount" ).val( "$" + ui.value );
+        }
+    });
+
 });
 
 function displayBio(){

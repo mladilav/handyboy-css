@@ -45,7 +45,7 @@
                 <li><span>|</span><a href="">Help</a></li>
                 <li><span>|</span><a href="">FAQ</a></li>
                 <li><span>|</span><a href="/main.php" class="">Become a handyboy</a></li>
-                <li><span>|</span><a class="signIn"><i class="icon-lock-small" ></i> Sing in</a></li>
+                <li><span>|</span><a class="signIn"><i class="icon-lock-small" ></i> Sign In</a></li>
             </ul>
 
             <div class="moto-xx"></div>
@@ -138,7 +138,7 @@
                 <td valign="middle" ><img src="img/main/phone_icon.png"></td>
                 <td>Our Help Desk is always available for your questions and concerns</td>
                 <td valign="middle"><img src="img/main/lock_icon.png"></td>
-                <td>Be Confident!  We use the most current and sophisticated data security system available..</td>
+                <td>Be Confident!  We use the most current and sophisticated data security system available.</td>
             </tr>
         </table>
 
@@ -153,8 +153,8 @@
             <div class="image sixImage"></div>
         </div>
         <div class="rightPart partAnimation">
-            <h2 class="textAnimationThree">Download the HandyBoy<i class="tm">tm</i>
-                App and browse our guys on the go.</h2>
+            <h2 class="textAnimationThree">Download the HandyBoy
+                App and browse our guys<br><i>on the go.</i> </h2>
             <div class="buy-button buy-button-bottom">
                 <a href="" class="app-store"></a>
                 <a href="" class="google-play"></a>
@@ -169,6 +169,7 @@
     <li>© HandyBOY </li>
     <li><a href="">TERMS</a> </li>
     <li><a href="">PRIVACY</a> </li>
+    <li><a href="">Service Contract</a> </li>
 </ul>
 </div>
 </div>

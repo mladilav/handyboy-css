@@ -11,12 +11,19 @@ ul,ol{
 li{
     list-style-type: none;
 }
+
+
+::-webkit-input-placeholder {color:#999;}
+::-moz-placeholder          {color:#999;}/* Firefox 19+ */
+:-moz-placeholder           {color:#999;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#999;}
+
 body, html {
     min-height: 100%;
     height: auto;
     padding: 0;
     margin: 0;
-    background: #fcfcfc;
+    background: #fff;
     font-family: OpenSans;
     color: #212530;
 }
@@ -65,7 +72,7 @@ input[type="radio"] + label::before {
     background-repeat: no-repeat;
 }
 
-input[type="checkbox"]:checked + label::before {
+input[type="checkbox"]:checked + label::before,input[type="radio"]:checked+ label::before {
     background-image: url('../img/login/tick_aLOGIN.png');
 }
 
@@ -535,9 +542,30 @@ span.ui-icon {
 }
 
 /*upload button*/
+
+
+
+.upload-file input {
+    height: 41px;
+    width: 216px;
+    cursor: pointer;
+}
+
+.upload-file {
+    background: transparent url('../img/bio_schedule_job/choose-file.png') left top no-repeat;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+    margin-top: 20px;
+}
+
+.upload-file input{
+    opacity: 0;
+    cursor: pointer;
+
+}
 .myPopUp {
     height: 60px;
-    /*background-color: #e72d3f;*/
     background-color: #fff;
 }
 
@@ -989,6 +1017,7 @@ a {
     top: 327px;
     width: 267px;
     height: 55px;
+    padding: 15px 30px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border: 1px solid #000;
@@ -1036,7 +1065,7 @@ a {
     list-style-type: none;
     padding: 20px 29px;
     height: 75px;
-    margin: 0px 11px;
+    margin: 10px;
 }
 
 .topMenuSecond li a {
@@ -1067,7 +1096,7 @@ a {
     background: url("../img/main/dark_logo.png");
     width: 144px;
     height: 48px;
-    margin: 13px 77px 0px 0px;
+    margin: 15px 77px 0 0;
     padding: 0;
 }
 
@@ -1203,9 +1232,6 @@ a {
     font-family: OpenSansSemiBold;
 }
 
-.screen-four .last {
-    color: #a12d40;
-}
 
 .screen-five {
     margin-top: 64px;
@@ -1297,7 +1323,7 @@ a {
 .screen-seven h2 {
     color: #ffffff;
     font-family: OpenSansBold;
-    font-size: 44px;
+    font-size: 40px;
     line-height: 52px;
     padding-left: 57px;
     padding-right: 19px;
@@ -1909,13 +1935,9 @@ h2.captionLight {
     opacity: 0;
     /* Анимация */
     -webkit-transition: .4s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .4s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .4s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .4s ease-out;
-    transition-delay: 0.5s;
 }
 
 .screen-two .captionLightAnimation {
@@ -1928,13 +1950,9 @@ h2.captionLight {
     opacity: 0;
     margin-right: -2000px;
     -webkit-transition: .4s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .4s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .4s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .4s ease-out;
-    transition-delay: 0.5s;
 }
 
 .screen-two .imageAnimation {
@@ -1951,13 +1969,9 @@ h2.captionLight {
     -o-transform: rotate(40deg); /* Для Opera */
     transform: rotate(40deg);
     -webkit-transition: .8s ease-out;
-    -webkit-transition-delay: 0;
     -o-transition: .8s ease-out;
-    -o-transition-delay: 0;
     -moz-transition: .8s ease-out;
-    -moz-transition-delay: 0;
     transition: .8s ease-out;
-    transition-delay: 0;
 }
 
 .textAnimations-1 {
@@ -1974,13 +1988,9 @@ h2.captionLight {
     opacity: 0;
     margin-left: -2000px;
     -webkit-transition: .4s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .4s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .4s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .4s ease-out;
-    transition-delay: 0.5s;
 }
 
 .screen-three .secondImageAnimation {
@@ -1992,30 +2002,22 @@ h2.captionLight {
     opacity: 0;
     margin-left: -2000px;
     -webkit-transition: .4s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .4s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .4s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .4s ease-out;
-    transition-delay: 0.5s;
 }
 
 .screen-four .thirdImageAnimations {
     opacity: 1;
-    margin-left: 0px;
+    margin-left:-55px
 }
 
 .screen-four > ul > li {
     opacity: 0;
     -webkit-transition: .9s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .9s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .9s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .9s ease-out;
-    transition-delay: 0.5s;
 }
 
 .screen-four > ul > .blockAnimations {
@@ -2026,13 +2028,9 @@ h2.captionLight {
     opacity: 0;
     margin-left: -2000px;
     -webkit-transition: .4s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .4s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .4s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .4s ease-out;
-    transition-delay: 0.5s;
 }
 
 .textAnimationTwo-1 {
@@ -2043,13 +2041,9 @@ h2.captionLight {
 .screen-six {
     opacity: 0;
     -webkit-transition: .8s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .8s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .8s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .8s ease-out;
-    transition-delay: 0.5s;
 }
 
 .screen-sixAnimation {
@@ -2060,13 +2054,9 @@ h2.captionLight {
     opacity: 0;
     margin-top: -2000px;
     -webkit-transition: .4s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .4s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .4s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .4s ease-out;
-    transition-delay: 0.5s;
 }
 
 .screen-seven .sixImageAnimation {
@@ -2078,13 +2068,9 @@ h2.captionLight {
     opacity: 0;
     margin-left: -2000px;
     -webkit-transition: .4s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .4s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .4s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .4s ease-out;
-    transition-delay: 0.5s;
 }
 
 .partAnimations {
@@ -2096,13 +2082,9 @@ h2.captionLight {
     opacity: 0;
     margin-left: -2000px;
     -webkit-transition: .4s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .4s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .4s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .4s ease-out;
-    transition-delay: 0.5s;
 }
 
 .what-is-handyboy.secondImageAnimation {
@@ -2114,13 +2096,9 @@ h2.captionLight {
     opacity: 0;
     margin-top: -100px;
     -webkit-transition: .4s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .4s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .4s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .4s ease-out;
-    transition-delay: 0.5s;
 }
 
 .textTwo-1 {
@@ -2137,13 +2115,9 @@ h2.captionLight {
     -o-transform: rotate(360deg) scale(0.1); /* Для Opera */
     transform: rotate(360deg) scale(0.1);
     -webkit-transition: .8s ease-out;
-    -webkit-transition-delay: 0s;
     -o-transition: .8s ease-out;
-    -o-transition-delay: 0s;
     -moz-transition: .8s ease-out;
-    -moz-transition-delay: 0s;
     transition: .8s ease-out;
-    transition-delay: 0s;
 }
 
 .formAnimation-1 {
@@ -2160,13 +2134,9 @@ h2.captionLight {
     opacity: 0;
     margin-left: -1000px;
     -webkit-transition: .4s ease-out;
-    -webkit-transition-delay: 0.5s;
     -o-transition: .4s ease-out;
-    -o-transition-delay: 0.5s;
     -moz-transition: .4s ease-out;
-    -moz-transition-delay: 0.5s;
     transition: .4s ease-out;
-    transition-delay: 0.5s;
 }
 
 .why-join-1 {
@@ -2228,6 +2198,7 @@ h2.captionLight {
 .inner-body .input-text{
     padding: 5px;
     color:#212530;
+    font-size: 13px;
 }
 
 .btn-dark-standard{
@@ -2330,7 +2301,6 @@ h2.captionLight {
     font-size: 16px;
     width: 660px;
 }
-
 
 
 .calendar{
@@ -2452,4 +2422,187 @@ h2.captionLight {
 
 .category-jobs-item-10{
     background-position: -482px -120px;
+}
+
+
+.job-details-title{
+    color: #212530;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.job-details-hr{
+    background: none repeat scroll 0 0 #212530;
+    height: 1px;
+    margin-bottom: 10px;
+    width: 645px;
+}
+.personal-trainer{
+    color: #212530;
+    font-family: OpenSans;
+    font-size: 18px;
+    line-height: 27px;
+}
+.upload-file-text{
+    color: #ddd;
+    margin-bottom: 20px;
+}
+.job-details-info{
+    display: inline-block;
+    width: 645px;
+    margin-bottom: 20px;
+}
+.job-details-info-text{
+    color: #212530;
+    float: left;
+    font-family: OpenSans;
+    font-size: 18px;
+    width: 500px;
+}
+.job-details-info-price{
+    float: left;
+    color: #212530;
+    font-family: OpenSans;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: right;
+    width: 143px;
+}
+.job-details-info-price-small{}
+.job-details-info-price-big{
+    display: inline-block;
+    font-family: OpenSansExtraBold;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.job-details-info-text-small{
+    color: #212530;
+    font-family: OpenSans;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.job-details-info-texts{
+    color: #212530;
+    font-family: OpenSans;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.slider{
+    border: 0 none;
+    border-radius: 0;
+    width: 645px;
+    background: #ddd;
+}
+.slider .ui-slider-range{
+    background: #e72d3f;
+    border-radius: 0;
+}
+.slider .ui-slider-handle{
+    background: #212530;
+    border:0;
+}
+
+.job-details-check{
+    font-family: OpenSans;
+    margin: 20px 0;
+}
+.job-details-check label {
+    display: inline-block;
+    font-family: OpenSans !important;
+    font-size: 14px !important;
+    width: 65px;
+}
+.job-details .small-label{
+     width: 645px;
+ }
+.input-text-large{
+    width: 645px;
+    margin:0;
+}
+
+.title-big{
+    color: #212530;
+    font-family: OpenSansBold;
+    font-size: 30px;
+
+}
+
+.work-place{
+    display: inline-block;
+    margin: 40px 0;
+    width: 645px;
+
+}
+.work-place-item{
+    float: left;
+    display: inline-block;
+    width: 320px;
+}
+
+.work-place-item input[type="radio"] + label:before{
+    float: left;
+    height: 60px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.work-place-item-title{
+    font-family: OpenSansBold;
+}
+.work-place-item-text{
+    font-family: OpenSans;
+    font-size: 14px;
+}
+
+.job-details-location{
+    display: inline-block;
+    width: 645px;
+    margin: 5px 0;
+}
+.job-details-location-input-big{
+    float: left;
+    width: 425px;
+}
+.job-details-location-input-big input{
+    font-family: OpenSansBold;
+    font-size: 18px !important;
+    height: 45px;
+    margin: 0;
+    padding: 10px !important;
+    width: 400px;
+}
+.job-details-location-input-small{
+    float: left;
+    width: 220px;
+}
+.job-details-location-input-small input{
+    font-family: OpenSansBold;
+    font-size: 18px !important;
+    height: 45px;
+    margin: 0;
+    padding: 10px !important;
+    width: 220px;
+}
+
+.job-details-location input[type="radio"] + label:before {
+    float: left;
+}
+.job-details-location-check{
+
+    display: block;
+    margin-top: 45px;
+}
+.button-group{
+    display: inline-block;
+    width: 685px;
+    margin: 20px 0;
+}
+.edit-back{
+    float: left;
+}
+.edit-next{
+    float: right;
+}
+
+.range{
+    margin: 50px 0;
 }

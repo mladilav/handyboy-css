@@ -191,6 +191,7 @@
                             </li>
                             <li><div class="accordion-title" id="job-details"><b>+</b> <span> Job Details</span></div>
                                 <div class="inner-body">
+                                    <div class="job-details">
                                     <div class="category-jobs">
                                         <p class="category-jobs-item category-jobs-item-1 active"></p>
                                         <p class="category-jobs-item category-jobs-item-2"></p>
@@ -203,12 +204,185 @@
                                         <p class="category-jobs-item category-jobs-item-9"></p>
                                         <p class="category-jobs-item category-jobs-item-10"></p>
                                     </div>
+
+                                    <p class="job-details-title">
+                                        Personal trainer
+                                    </p>
+                                    <div class="job-details-hr"></div>
+                                        <div class="personal-trainer">
+                                            <p>You must be insured to perform this service* </p>
+                                            <p>Upload proof of current personal trainer;s insurance(Min 500k) </p>
+                                            <div class="upload-file">
+                                                <input type="file" style="color:red"/>
+                                            </div>
+                                            <p class="upload-file-text">(Must be PDF or Jpeg)</p>
+                                            <div class="job-details-hr"></div>
+                                        </div>
+                                        <div class="job-details-info">
+                                            <p class="job-details-info-text">
+                                                What will you charge?<br>
+                                                You can customizethis at any time<br><br>
+                                                Price oer Hour
+                                            </p>
+                                            <p class="job-details-info-price">
+                                                <span class="job-details-info-price-small">Total</span><br>
+                                                <span class="job-details-info-price-big">50$</span>
+                                            </p>
+                                        </div>
+
+                                        <div class="slider"></div>
+
+                                        <p class="job-details-info-texts">
+                                            We Suggest anywhere between <b>50$ - 70$</b>
+                                        </p>
+
+                                        <p class="job-details-info-text-small">
+                                            Would you like to add an additional charge<br>
+                                            for gigs over 15 miles away?
+                                        </p>
+
+                                        <div class="job-details-check">
+                                            <input id="one" type="radio" name="one" hidden />
+                                            <label for="one" >YES</label>
+
+                                            <input id="two" type="radio" name="one" hidden />
+                                            <label for="two" >NO</label>
+                                        </div>
+                                        <p class="job-details-info-text"> Describe your services </p>
+
+
+                                        <textarea class="textarea">
+
+                                        </textarea>
+
+                                        <div class="work-place">
+                                            <div class="work-place-item">
+                                                <input id="three" type="radio" name="two" hidden />
+                                                <label for="three" >
+                                                    <p class="work-place-item-title">Home</p>
+                                                    <p class="work-place-item-text">553 Mocking Bird Lane</p>
+                                                </label>
+
+                                            </div>
+                                            <div class="work-place-item">
+                                                <input id="four" type="radio" name="two" hidden />
+                                                <label for="four" >
+                                                    <p class="work-place-item-title">Work</p>
+                                                    <p class="work-place-item-text">5653 NotSoBad Place</p>
+                                                </label>
+
+                                            </div>
+                                        </div>
+
+                                        <p class="title-big">+ Add new location</p>
+                                        <label class="small-label"><b>What should we call this place?</b></label>
+                                        <p>
+                                            <input type="text" class="input-text input-text-large"
+                                                   placeholder="Home, Work, Friends...">
+                                        </p>
+                                        <div class="job-details-location">
+                                            <div class="job-details-location-input-big">
+                                                <label class="small-label"><b>What the Address?</b></label>
+                                                <p>
+                                                    <input type="text" class="input-text"
+                                                           placeholder="848 Bambam Lane">
+                                                </p>
+                                            </div>
+                                            <div class="job-details-location-input-small">
+                                                <label class="small-label"><b>City</b></label>
+                                                <p>
+                                                    <input type="text" class="input-text"
+                                                           placeholder="Los Angelos">
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="job-details-location">
+                                            <div class="job-details-location-input-big">
+                                                <label class="small-label" style="opacity: 0;"><b>df</b></label>
+                                                <p>
+                                                    <input type="text" class="input-text"
+                                                           placeholder="15 Apt">
+                                                </p>
+                                            </div>
+                                            <div class="job-details-location-input-small">
+                                                <label class="small-label"><b>State</b></label>
+                                                <p>
+                                                    <select class="select-2">
+                                                        <option>CA</option>
+                                                        </select>
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="job-details-location">
+                                            <div class="job-details-location-input-big">
+                                                <label class="small-label"><b>Finally, the Zip </b></label>
+                                                <p>
+                                                    <input type="text" class="input-text"
+                                                           placeholder="65648">
+                                                </p>
+                                            </div>
+                                            <div class="job-details-location-input-small">
+                                                <span  class="job-details-location-check"> <input id="five" type="radio"  name="three" hidden />
+                                                <label for="five">
+                                                    <p class="work-place-item-title">Save address</p>
+                                                </label>
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="range">
+                                        <div class="job-details-info">
+                                            <p class="job-details-info-text">
+                                                <b>Will you charge a location fee?</b>
+                                                        <p class="job-details-info-text-small">
+                                                                You can customizethis at any time</p><br>
+                                                Price oer Hour
+                                            </p>
+                                            <p class="job-details-info-price">
+                                                <span class="job-details-info-price-small">Total</span><br>
+                                                <span class="job-details-info-price-big">10$</span>
+                                            </p>
+                                        </div>
+
+                                        <div class="slider"></div>
+
+                                        <p class="job-details-info-texts">
+                                            We Suggest anywhere between <b>5$ - 15$</b>
+                                        </p>
+
+
+
+                                        <div class="job-details-info">
+                                            <p class="job-details-info-text">
+                                                <b>What you consider going shirtless at this location?</b><br>
+                                                    <p class="job-details-info-text-small">
+                                                            You can customizethis at any time</p><br>
+                                                Price oer Hour
+                                            </p>
+                                            <p class="job-details-info-price">
+                                                <span class="job-details-info-price-small">Total</span><br>
+                                                <span class="job-details-info-price-big">10$</span>
+                                            </p>
+                                        </div>
+
+                                        <div class="slider"></div>
+
+                                        <p class="job-details-info-texts">
+                                            We Suggest anywhere between <b>5$ - 15$</b>
+                                        </p>
+
+                                        </div>
+                                    </div>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
                     </div>
 
-                </div>
+
                 <div class="rightPart">
                     <div class="users-avatars">
                         <div class="current-image">
@@ -244,8 +418,10 @@
 
 
             </div>
+            <div class="button-group">
             <button class="btn-dark-standard edit-back"><i class="icon-arrow-back"></i> Back</button>
-            <button class="btn-dark-standard work-schedule-next">Work Schedule<i class="icon-arrow-next"></i></button>
+            <button class="btn-dark-standard work-schedule-next edit-next">Work Schedule<i class="icon-arrow-next"></i></button>
+            </div>
         </div>
     </main>
 </div>
@@ -263,7 +439,7 @@
 <script>
 
     $( ".select-bio" ).selectmenu({ width: 650 });
-
+    $( ".select-2" ).selectmenu({ width: 225 });
 
 </script>
 </body>
