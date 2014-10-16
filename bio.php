@@ -335,16 +335,16 @@
 
                                         <div class="range">
                                         <div class="job-details-info">
-                                            <p class="job-details-info-text">
+                                            <div class="job-details-info-text">
                                                 <b>Will you charge a location fee?</b>
                                                         <p class="job-details-info-text-small">
                                                                 You can customizethis at any time</p><br>
                                                 Price oer Hour
-                                            </p>
-                                            <p class="job-details-info-price">
+                                            </div>
+                                            <div class="job-details-info-price">
                                                 <span class="job-details-info-price-small">Total</span><br>
                                                 <span class="job-details-info-price-big">10$</span>
-                                            </p>
+                                            </div>
                                         </div>
 
                                         <div class="slider"></div>
@@ -356,16 +356,16 @@
 
 
                                         <div class="job-details-info">
-                                            <p class="job-details-info-text">
+                                            <div class="job-details-info-text">
                                                 <b>What you consider going shirtless at this location?</b><br>
                                                     <p class="job-details-info-text-small">
                                                             You can customizethis at any time</p><br>
                                                 Price oer Hour
-                                            </p>
-                                            <p class="job-details-info-price">
+                                            </div>
+                                            <div class="job-details-info-price">
                                                 <span class="job-details-info-price-small">Total</span><br>
                                                 <span class="job-details-info-price-big">10$</span>
-                                            </p>
+                                            </div>
                                         </div>
 
                                         <div class="slider"></div>
