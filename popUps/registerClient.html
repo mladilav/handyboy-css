@@ -1,0 +1,71 @@
+<div id="dialog" class="registerClient">
+    <div id="regHeader">
+        <div class="logoLeft"></div>
+        <div class="hoverText">
+            Come Back and Apply Anytime
+        </div>
+
+        <label class="small-label">What your name?</label>
+        <p>
+            <input type="text" class="input-text input-text-small" placeholder="First">
+            <input type="text" class="input-text input-text-small" placeholder="Last">
+        </p>
+
+        <label class="small-label">What your email?</label>
+        <p>
+            <input type="text" class="input-text input-email input-text-norm" placeholder="Email Address">
+        </p>
+
+        <label class="small-label">What password would you like to use?</label>
+        <p>
+            <input type="password" class="input-text input-password input-text-norm" placeholder="Password">
+        </p>
+
+        <label class="small-label">How old are you?</label>
+        <ul class="date-of-birth">
+            <li class="two"><input type="text" class="input-text" placeholder="MM"/></li>
+            <li class="slash">/</li>
+            <li class="two"><input type="text" class="input-text" placeholder="DD"/></li>
+            <li class="slash">/</li>
+            <li class="one"><input type="text" class="input-text" placeholder="YYYY" /></li>
+        </ul>
+
+        <label class="small-label">Whats your Cell Number?</label>
+        <p>
+            <input type="text" class="input-text input-phone input-text-norm" placeholder="Phone Number">
+        </p>
+
+        <label class="small-label">By clicking you accept our terms of service and Privacy Policy</label>
+        <p class="terms">
+            <input id="one" type="checkbox" name="one" hidden />
+            <label for="one" >
+                <p class="work-place-item-title">Terms of Service</p>
+            </label>
+
+        </p>
+
+        <p class="terms">
+            <input id="two" type="checkbox" name="two" hidden />
+            <label for="two" >
+                <p class="work-place-item-title">Privacy Policy</p>
+            </label>
+
+        </p>
+        <center><button class="btn-dark-standard phone-btn"><span class="text-btn">Send phone verification</span> <i class="icon-phone-white"></i> </button></center>
+        </div>
+
+</div>
+<script>
+    $( "#dialog" ).dialog({ minWidth: 420, minHeight: 800 });
+
+    $('.ui-dialog-titlebar-close').mouseover(function(event)
+    {
+        $('.hoverText').show();
+    });
+
+    $('.ui-dialog-titlebar-close').mouseout(function(event)
+    {
+        $('.hoverText').hide();
+    });
+    $("#phone").mask("999-999-9999",{placeholder:"X"});
+</script>

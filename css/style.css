@@ -2228,6 +2228,7 @@ h2.captionLight {
     text-transform:uppercase;
     font-size: 18px;
     margin: 10px;
+    cursor: pointer;
 }
 .icon-arrow-back{
     background: url("../img/bio_schedule_job/arrow_back.png") no-repeat scroll center center rgba(0, 0, 0, 0);
@@ -2662,4 +2663,16 @@ h2.captionLight {
 .ui-dialog .ui-dialog-content.registerClient {
     padding: 10px;
     padding-right: 0;
+}
+.icon-phone-white{
+    display: inline-block;
+    background: url("../img/phone_icon_A.png");
+    width: 20px;
+    height: 32px;
+    margin: 0 5px;
+}
+.text-btn{
+    display: inline-block;
+    float: left;
+    margin-top: 8px;
 }

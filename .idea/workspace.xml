@@ -26,7 +26,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2647" column="13" selection-start="47780" selection-end="47780" vertical-scroll-proportion="0.505291" vertical-offset="44808" max-vertical-offset="45390">
+            <state line="2230" column="20" selection-start="40256" selection-end="40256" vertical-scroll-proportion="0.7380952" vertical-offset="37631" max-vertical-offset="45611">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="registerClient.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/popUps/registerClient.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="40" selection-start="2238" selection-end="2238" vertical-scroll-proportion="-37.923077" vertical-offset="0" max-vertical-offset="1309">
+            <state line="53" column="81" selection-start="2147" selection-end="2155" vertical-scroll-proportion="-8.615385" vertical-offset="677" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="bio.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="272" column="0" selection-start="16994" selection-end="17372" vertical-scroll-proportion="-8.730769" vertical-offset="4397" max-vertical-offset="7667">
+            <state line="270" column="60" selection-start="17267" selection-end="17267" vertical-scroll-proportion="12.192307" vertical-offset="4907" max-vertical-offset="7667">
               <folding />
             </state>
           </provider>
@@ -369,13 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="272" column="0" selection-start="16994" selection-end="17372" vertical-scroll-proportion="-8.730769" vertical-offset="4397" max-vertical-offset="7667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="27" selection-start="2667" selection-end="2667" vertical-scroll-proportion="87.88461" vertical-offset="3271" max-vertical-offset="3672">
@@ -383,16 +376,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="270" column="60" selection-start="17267" selection-end="17267" vertical-scroll-proportion="12.192307" vertical-offset="4907" max-vertical-offset="7667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/popUps/registerClient.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="40" selection-start="2238" selection-end="2238" vertical-scroll-proportion="-37.923077" vertical-offset="0" max-vertical-offset="1309">
+        <state line="53" column="81" selection-start="2147" selection-end="2155" vertical-scroll-proportion="-8.615385" vertical-offset="677" max-vertical-offset="1309">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2647" column="13" selection-start="47780" selection-end="47780" vertical-scroll-proportion="0.505291" vertical-offset="44808" max-vertical-offset="45390">
+        <state line="2230" column="20" selection-start="40256" selection-end="40256" vertical-scroll-proportion="0.7380952" vertical-offset="37631" max-vertical-offset="45611">
           <folding />
         </state>
       </provider>
