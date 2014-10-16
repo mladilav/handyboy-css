@@ -472,13 +472,15 @@ span.ui-icon {
     font-size: 18px;
 }
 
-#dialog.register #regHeader, #dialog.license #regHeader {
+#dialog.register #regHeader, #dialog.license #regHeader,
+.registerClient #regHeader{
     height: 102px;
     width: 100%;
     display: inline-block;
 }
 
-#dialog.register .logoLeft, #dialog.license .logoLeft {
+#dialog.register .logoLeft, #dialog.license .logoLeft,
+.registerClient .logoLeft{
     width: 210px;
     height: 100%;
     background-image: url('../img/register/smalllogo.png');
@@ -487,7 +489,11 @@ span.ui-icon {
     margin: 19px 19px;
 }
 
-#dialog.register .hoverText, #dialog.license .hoverText {
+.registerClient .logoLeft{
+    height: 57px;
+}
+
+#dialog.register .hoverText, #dialog.license .hoverText{
     float: right;
     font-family: OpenSans;
     font-size: 14px;
@@ -495,6 +501,18 @@ span.ui-icon {
     margin-top: 12px;
     margin-right: 30px;
     display: none;
+}
+
+.registerClient .hoverText{
+    float: right;
+    font-family: OpenSans;
+    font-size: 12px;
+    color: #1f232d;
+    margin-top: 12px;
+    margin-right: 30px;
+    display: none;
+    margin-left: 190px;
+    position: absolute;
 }
 
 #dialog.register #profileheader {
@@ -704,21 +722,21 @@ span.ui-icon {
     padding: 5px 0px;
 }
 
-.step .center ul {
+.date-of-birth {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
 
-.step .center ul li {
+.date-of-birth li {
     float: left;
 }
 
-.step .center ul .two {
+.date-of-birth .two {
     width: 88px;
 }
 
-.step .center ul .two input {
+.date-of-birth .two input {
     width: 88px;
     border: solid 3px #e3e3e3;
     color: #e3e3e3;
@@ -726,7 +744,7 @@ span.ui-icon {
     font-size: 26px;
 }
 
-.step .center ul .slash {
+.date-of-birth .slash {
     width: 28px;
     text-align: center;
     color: #e3e3e3;
@@ -735,11 +753,11 @@ span.ui-icon {
     font-weight: bold;
 }
 
-.step .center ul .one {
+.date-of-birth .one {
     width: 105px;
 }
 
-.step .center ul .one input {
+.date-of-birth .one input {
     width: 105px;
     border: solid 3px #e3e3e3;
     color: #e3e3e3;
@@ -747,7 +765,7 @@ span.ui-icon {
     padding: 0 18px;
 }
 
-.step .center ul li input:focus {
+.date-of-birth li input:focus {
     border-color: #1e2933;
     color: #1e2933;
 }
@@ -2605,4 +2623,43 @@ h2.captionLight {
 
 .range{
     margin: 50px 0;
+}
+
+.input-text-norm{
+    margin:0;
+    width: 340px;
+}
+
+.input-text-small{
+    margin-right:10px;
+    width: 150px;
+    float: left;
+    padding: 10px;
+}
+.registerClient {
+    margin-left:  25px;
+}
+.registerClient > label,.registerClient > p{
+    padding-left: 25px;
+}
+
+.registerClient .input-text-small:last-child{
+    width: 180px;
+    margin: 0;
+}
+
+.registerClient input[type="checkbox"] + label::before,.registerClient input[type="radio"] + label::before{
+    float: left;
+}
+
+.terms{
+    margin: 10px 80px;
+}
+.registerClient .small-label{
+    font-size: 12px;
+}
+
+.ui-dialog .ui-dialog-content.registerClient {
+    padding: 10px;
+    padding-right: 0;
 }

@@ -1,6 +1,7 @@
 $(document).ready(function () {
     /* animation */
-
+    $("#popUps").load("/popUps/registerClient.html");
+    $(".back").removeClass("hide");
 
 
 
