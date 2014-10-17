@@ -347,18 +347,6 @@ span.ui-icon {
     width: 100%;
 }
 
-#dialog .pass input {
-    background-image: url('../img/login/lock_eye_na.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#dialog .pass input:focus {
-    background-image: url('../img/login/lock_eye_a.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    color: #1C2933;
-}
 
 #dialog .pass div {
     text-align: right;
@@ -2675,4 +2663,22 @@ h2.captionLight {
     display: inline-block;
     float: left;
     margin-top: 8px;
+}
+
+.input-password{
+    background-image: url("../img/login/lock_eye_na.png");
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.input-password:focus, .input-password:active{
+    background-image: url("../img/login/lock_eye_a.png");
+}
+.input-email{
+    background-image: url("../img/login/email_ico_NALOGIN.png");
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+}
+.input-email:focus, .input-email:active{
+    background-image: url("../img/login/email_ico_ALOGIN.png");
 }

@@ -1,7 +1,6 @@
 $(document).ready(function () {
     /* animation */
 
-
     $(document).on('click', '.signIn', function () {
         $("#popUps").load("/popUps/login.html");
         $(".back").removeClass("hide");
