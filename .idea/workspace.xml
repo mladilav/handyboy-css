@@ -26,7 +26,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="349" column="0" selection-start="6584" selection-end="6584" vertical-scroll-proportion="0.4019851" vertical-offset="5771" max-vertical-offset="45713">
+            <state line="2690" column="13" selection-start="48647" selection-end="48689" vertical-scroll-proportion="0.8210526" vertical-offset="45418" max-vertical-offset="45866">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+            <state line="1" column="19" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1938">
               <folding />
             </state>
           </provider>
@@ -44,16 +44,7 @@
       <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="27" selection-start="2667" selection-end="2667" vertical-scroll-proportion="68.26923" vertical-offset="2761" max-vertical-offset="3672">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bio.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bio.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="357" column="70" selection-start="22903" selection-end="22903" vertical-scroll-proportion="-7.1923075" vertical-offset="5882" max-vertical-offset="7667">
+            <state line="58" column="27" selection-start="2667" selection-end="2667" vertical-scroll-proportion="-0.0" vertical-offset="986" max-vertical-offset="3672">
               <folding />
             </state>
           </provider>
@@ -62,7 +53,7 @@
       <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/popUps/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="64" selection-start="5460" selection-end="5483" vertical-scroll-proportion="-19.615385" vertical-offset="2193" max-vertical-offset="3264">
+            <state line="159" column="64" selection-start="5460" selection-end="5483" vertical-scroll-proportion="-9.807693" vertical-offset="2448" max-vertical-offset="3264">
               <folding />
             </state>
           </provider>
@@ -71,7 +62,7 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/popUps/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="10" selection-start="269" selection-end="269" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="697">
+            <state line="34" column="40" selection-start="1345" selection-end="1345" vertical-scroll-proportion="-9.5" vertical-offset="331" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -80,7 +71,7 @@
       <file leaf-file-name="registerClient.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/popUps/registerClient.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="60" selection-start="572" selection-end="583" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1309">
+            <state line="15" column="60" selection-start="572" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -110,8 +101,8 @@
         <option value="$PROJECT_DIR$/popUps/register.html" />
         <option value="$PROJECT_DIR$/popUps/registerClient.html" />
         <option value="$PROJECT_DIR$/bio.php" />
-        <option value="$PROJECT_DIR$/popUps/login.html" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
+        <option value="$PROJECT_DIR$/popUps/login.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -149,6 +140,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,7 +189,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,10 +244,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848942" sideWeight="0.6846154" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25302115" sideWeight="0.6846154" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26916525" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26825127" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -285,6 +276,55 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="349" column="0" selection-start="6584" selection-end="6584" vertical-scroll-proportion="0.0" vertical-offset="6077" max-vertical-offset="45713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="27" selection-start="2667" selection-end="2667" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="3672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="357" column="70" selection-start="22903" selection-end="22903" vertical-scroll-proportion="0.0" vertical-offset="5882" max-vertical-offset="7667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popUps/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="64" selection-start="5460" selection-end="5483" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="3264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popUps/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="10" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popUps/registerClient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="60" selection-start="572" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2230" column="20" selection-start="40256" selection-end="40256" vertical-scroll-proportion="0.0" vertical-offset="38243" max-vertical-offset="45611">
@@ -423,16 +463,9 @@
         <state line="159" column="51" selection-start="6847" selection-end="6847" vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3162" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="357" column="70" selection-start="22903" selection-end="22903" vertical-scroll-proportion="-7.1923075" vertical-offset="5882" max-vertical-offset="7667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/popUps/registerClient.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="60" selection-start="572" selection-end="583" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1309">
+        <state line="15" column="60" selection-start="572" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1309">
           <folding />
         </state>
       </provider>
@@ -444,30 +477,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="357" column="70" selection-start="22903" selection-end="22903" vertical-scroll-proportion="0.510929" vertical-offset="5882" max-vertical-offset="7667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="27" selection-start="2667" selection-end="2667" vertical-scroll-proportion="68.26923" vertical-offset="2761" max-vertical-offset="3672">
+        <state line="58" column="27" selection-start="2667" selection-end="2667" vertical-scroll-proportion="-0.0" vertical-offset="986" max-vertical-offset="3672">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/popUps/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="64" selection-start="5460" selection-end="5483" vertical-scroll-proportion="-19.615385" vertical-offset="2193" max-vertical-offset="3264">
+        <state line="159" column="64" selection-start="5460" selection-end="5483" vertical-scroll-proportion="-9.807693" vertical-offset="2448" max-vertical-offset="3264">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/popUps/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="269" selection-end="269" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="697">
+        <state line="34" column="40" selection-start="1345" selection-end="1345" vertical-scroll-proportion="-9.5" vertical-offset="331" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="349" column="0" selection-start="6584" selection-end="6584" vertical-scroll-proportion="0.4019851" vertical-offset="5771" max-vertical-offset="45713">
+        <state line="2690" column="13" selection-start="48647" selection-end="48689" vertical-scroll-proportion="0.8210526" vertical-offset="45418" max-vertical-offset="45866">
           <folding />
         </state>
       </provider>
